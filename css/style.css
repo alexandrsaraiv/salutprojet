@@ -1,0 +1,117 @@
+#logo{
+    height: 300px;
+    width: 300px;
+}
+
+#content-index{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #cccccc;
+}
+
+#content-main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #cccccc;
+    
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.button{
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+    font-size: 18pt;
+    width: 170px;
+    background-color: #ffffff;
+    text-decoration: none;
+    color: #0fdb86;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#img{
+    width: 100px;
+    height: 100px;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+}
+
+.desc{
+    padding: 10px;
+}
+
+.day{
+    font-size: 75pt;
+}
+
+.metas{
+    display: flex;
+    padding: 35px;
+    
+}
+
+.meta1,.meta2,.meta3{
+    background-color: #FFF;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.porcentagem{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.concluido{
+    font-size: 40pt;
+    margin: 10px;
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.naoconcluido{
+    font-size: 20pt;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.check{
+    width: 25px;
+    height: 25px;
+    color: green;
+}
+
+.inputs{
+display: flex;
+flex-direction: column;
+}
+
+.inputs input{
+    margin: 10px;
+    height: 30px;
+}
+
+#logo2{
+    height: 200px;
+    width: 200px;
+}
